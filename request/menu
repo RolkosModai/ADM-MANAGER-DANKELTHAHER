@@ -189,9 +189,9 @@ _usop=$(printf '%-1s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { 
 _core=$(printf '%-1s' "$(grep -c cpu[0-9] /proc/stat)")
 _system=$(printf '%-14s' "$system")
 _hora=$(printf '%(%H:%M:%S)T')
-echo -e "\033[1;32mSISTEMA            MEMORIA RAM      PROCESSADOR "
-echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNucleos: \033[1;37m$_core\033[0m"
-echo -e "\033[1;31mHora:\033[1;37m $_hora     \033[1;31mEn uso: \033[1;37m$_usor \033[1;31mCPU: \033[1;37m$_usop\033[0m"
+echo -e "\033[1;32mSISTEMA               MEMORIA RAM         PROCESSADOR "
+echo -e "\033[1;31mOS: \033[1;37m$_system    \033[1;31mTotal:\033[1;37m$_ram    \033[1;31mNucleos: \033[1;37m$_core\033[0m"
+echo -e "\033[1;31mHora:\033[1;37m $_hora        \033[1;31mEn uso: \033[1;37m$_usor    \033[1;31mCPU: \033[1;37m$_usop\033[0m"
 }
 BadVPN () {
 pid_badvpn=$(ps x | grep badvpn | grep -v grep | awk '{print $1}')
