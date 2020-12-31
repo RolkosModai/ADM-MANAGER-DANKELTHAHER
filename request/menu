@@ -117,7 +117,7 @@ tput cuu1 && tput dl1
 done
 if [[ $Key = @(s|S|y|Y) ]]; then
 msg -verm "$(fun_trans "Perfecto Iniciando Procedimiento"): "
-wget -O $HOME/instala.sh https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/ADM-MANAGER-DANKELTHAHER/instala.sh &> /dev/null
+wget -O $HOME/instala.sh https://raw.githubusercontent.com/RolkosModai/ADM-MANAGER-DANKELTHAHER/master/instala.sh &> /dev/null
 chmod +x $HOME/instala.sh*
 local LINGUAGE=$(cat ${SCPidioma})
 $HOME/instala.sh "${LINGUAGE}"
