@@ -1,7 +1,5 @@
 ﻿# ADM-MANAGER-DANKELTHAHER
 
-# (NO RECOMENDADO - SOLO USAR PARA TESTEOS )
-
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/blob/master/ADM-MANAGER-DANKELTHAHER/Imagenes/ADM-MANAGER-DANKELTHAHER.png)
 
 -------------------------------------------------------------------------------
