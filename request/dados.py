@@ -9,7 +9,7 @@ echo -e "$BARRA1"
 
 if [ -d '/usr/local/ddos' ]; then
 
-	echo; echo; echo "\e[1;31mDESINSTALA LA VERSION ANTERIOR CON UN-DDOS\e[0m"
+	echo; echo; echo "     DESINSTALA LA VERSION ANTERIOR CON UN-DDOS"
 
 	exit 0
 
